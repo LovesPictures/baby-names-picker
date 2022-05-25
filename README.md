@@ -1,2 +1,2 @@
-# baby-names-picker-
+# baby-names-picker
 React baby name picker
