@@ -1,0 +1,205 @@
+/* 
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+/* Global reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+ --girl-1: #fecacc;
+ --boy-1: #afd4ec;
+
+ --accent: #ffff; 
+ --accent-2: #ff6347;
+ --accent-3: #adff2f;
+ --accent-4: #ac2fff;
+
+  /* font */
+  font-family: "Share Tech Mono", monospace;
+  
+  /* font size  */
+  --font-size-1: 18px;
+  --font-size-2: 24px;
+  --font-size-3: 25px;
+  
+
+  /* styling */
+  --box-shadow-1: 0 12px 12px #9ac4de; 
+  
+  /* main border */
+  --border-color-1: #afd4ec #afd4ec #fecacc #fecacc;
+  --border-style-1: 10px dotted;
+  --border-radius-1: 20px;
+  --border-radius-2: 5px;
+}
+  
+body {
+  padding: 0rem 1rem 0rem 1rem ;
+  font: var(--font-primary);
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* border */
+  margin: 30px 10% 10px 10%;  
+  border: var(--border-style-1);
+  border-radius: var(--border-radius-1);
+  border-color: var(--border-color-1);
+} 
+
+
+/* Top Search ------------------------------- */
+header {
+  margin: 20px 10px;
+  font-size: var(--font-size-1);
+  font-weight: 700;
+}
+input[type="text"] {
+  margin: 10px 0px;  
+  font-size: var(--font-size-2);
+  border: 3px solid var(--accent);   
+  background: var(--boy-1);
+  box-shadow: var(--box-shadow-1);
+  border-radius: var(--border-radius-1);
+  padding: 0 15px;
+  width: 60%;
+  height: 45px;
+  font: var(--font-primary);
+  color: var(--accent);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: var(--box-shadow-1);
+  font: inherit;
+}
+
+/* Top Shortlist area -------------------- */
+
+.short-list h2 {
+  padding: 0;
+  font-weight: 400;
+  font-size:var(--font-size-2);
+  color: #b3b3b3;
+  margin: 20px 0;  
+}
+
+hr {
+  margin: 40px 0;   
+  border-top: 10px dotted var(--boy-1);
+}
+
+/* FILTER BUTTONS ---------------------------------- */
+ 
+button{
+  border: none;
+  background: transparent; 
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 6px 15px;
+  color: inherit;
+  font: inherit;
+  /* margin: 10px 10px; */
+  font-size: var(--font-size-1);
+  box-shadow: var(--box-shadow-1);
+} 
+
+.children {
+  font-size: var(--font-size-3);
+  color: var(--accent-4);
+  margin: 5px 5px;
+  border-radius: var(--border-radius-1);
+}
+
+.f {
+  font-size: var(--font-size-3);
+  color: var(--girl-1);
+  margin: 5px 5px;
+  border-radius: var(--border-radius-1);
+}
+
+.m {
+  font-size: var(--font-size-3);
+  /* position: relative; */
+  color: var(--boy-1);
+  margin: 5px 5px;
+  border-radius: var(--border-radius-1);
+}
+
+/* MAIN BUTTONS Male & Female   ---------------------------- */
+
+li {
+  /* position: relative; */
+  list-style: none;
+   display: inline-block;
+   margin: 3px;
+   border-radius: var(--border-radius-2) !important;
+}
+
+li.f {
+  background: var(--girl-1);
+  color: var(--accent); 
+}
+
+li.m {
+  background: var(--boy-1);
+  color: var(--accent);
+}
+
+li > button {
+  border: none;
+  background: transparent; 
+  /* display: block; */
+
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 8px 5px;
+  color: inherit;
+  font: inherit;
+  font-size: var(--font-size-1);
+  box-shadow: var(--box-shadow-1);
+}
+
+
+li > button:hover {
+  background-color: var(--accent-3);
+}
+
+/*  Reset Button ------------------------------------ */
+
+button.reset-search {
+  color:  var(--accent);
+  background:  var(--boy-1);;  
+  border: 3px solid var(--accent);
+  border-radius: var(--border-radius-1);
+  padding: 12px 12px;
+  font-size: var(--font-size-1) !important;
+  letter-spacing: 1px;
+  font: inherit;
+  margin: 50px 0px 10px 0px;
+
+}
+
+.reset-search, button:hover {
+  color:  var(--accent);
+  background-color: var(--accent-3);
+}
+
+/* FOOTER -------------------------------------------- */
+h3{
+text-decoration: none !important;
+color: var(--boy-1);  
+}
+
+Footer {
+  margin: 30px 0px;
+  font-size: var(--font-size-1);
+  
+}
+
+
