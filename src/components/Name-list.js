@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { useAppState } from "../providers/App-state";
 
 export function NamesList({ namesList, onItemClick }) {
-  const { genderFilter, setGenderFilter } = useAppState();
-  console.log(genderFilter);
+  const { genderFilter } = useAppState();
+  // console.log(genderFilter);
   return (
     <ul>
       {/* all names */}
