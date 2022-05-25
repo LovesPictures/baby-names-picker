@@ -9,7 +9,7 @@ import { NamesProvider } from "./providers/Names";
 import { AppStateProvider } from "./providers/App-state";
 
 // Data
-import { names } from "./components/data";
+// import { names } from "./components/data";
 
 //the array of names in the file
 // import { names } from "components/data/Names.json";
