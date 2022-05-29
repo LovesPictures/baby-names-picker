@@ -109,7 +109,7 @@ button{
   box-shadow: var(--box-shadow-1);
 } 
 
-.children {
+.all {
   font-size: var(--font-size-3);
   color: var(--accent-4);
   margin: 5px 5px;
