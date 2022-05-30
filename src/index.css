@@ -36,6 +36,11 @@
   --border-style-1: 10px dotted;
   --border-radius-1: 20px;
   --border-radius-2: 5px;
+
+  /* linier gradient */
+  --gradient-color-1: radial-gradient(circle, #fecacc 10%, #afd4ec 80%); 
+  --gradient-color-2: radial-gradient(circle, #afd4ec 10%, #fecacc 80%);
+
 }
   
 body {
@@ -63,7 +68,8 @@ input[type="text"] {
   margin: 10px 0px;  
   font-size: var(--font-size-2);
   border: 3px solid var(--accent);   
-  background: var(--boy-1);
+  /* background: var(--boy-1); */
+  background: var(--gradient-color-1);
   box-shadow: var(--box-shadow-1);
   border-radius: var(--border-radius-1);
   padding: 0 15px;
@@ -127,6 +133,15 @@ button{
   font-size: var(--font-size-3);
   /* position: relative; */
   color: var(--boy-1);
+  
+  margin: 5px 5px;
+  border-radius: var(--border-radius-1);
+}
+
+/* to do  */
+.jude{
+  background: var(--gradient-color-2);
+  color: var(--accent-4);
   margin: 5px 5px;
   border-radius: var(--border-radius-1);
 }
@@ -165,7 +180,6 @@ li > button {
   box-shadow: var(--box-shadow-1);
 }
 
-
 li > button:hover {
   background-color: var(--accent-3);
 }
@@ -174,7 +188,8 @@ li > button:hover {
 
 button.reset-search {
   color:  var(--accent);
-  background:  var(--boy-1);;  
+  /* background:  var(--boy-1);   */
+  background: var(--gradient-color-1);
   border: 3px solid var(--accent);
   border-radius: var(--border-radius-1);
   padding: 12px 12px;
