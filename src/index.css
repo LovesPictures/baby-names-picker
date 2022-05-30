@@ -35,7 +35,8 @@
   --border-color-1: #afd4ec #afd4ec #fecacc #fecacc;
   --border-style-1: 10px dotted;
   --border-radius-1: 20px;
-  --border-radius-2: 5px;
+  /* to do - set to 10px */
+  --border-radius-2: 3px;
 
   /* linier gradient */
   --gradient-color-1: radial-gradient(circle, #fecacc 10%, #afd4ec 80%); 
@@ -105,7 +106,6 @@ hr {
 button{
   border: none;
   background: transparent; 
-  border-radius: 3px;
   cursor: pointer;
   padding: 6px 15px;
   color: inherit;
@@ -150,28 +150,27 @@ button{
 
 li {
   /* position: relative; */
-  list-style: none;
+   list-style: none;
    display: inline-block;
    margin: 3px;
-   border-radius: var(--border-radius-2) !important;
 }
 
 li.f {
   background: var(--girl-1);
   color: var(--accent); 
+  border-radius: var(--border-radius-2);
 }
 
 li.m {
   background: var(--boy-1);
   color: var(--accent);
+  border-radius: var(--border-radius-2);
 }
 
 li > button {
   border: none;
-  background: transparent; 
-  /* display: block; */
+  /* background: transparent;  */
 
-  border-radius: 3px;
   cursor: pointer;
   padding: 8px 5px;
   color: inherit;
@@ -201,20 +200,22 @@ button.reset-search {
 }
 
 .reset-search, button:hover {
-  color:  var(--accent);
+  /* color:  var(--accent); */
   background-color: var(--accent-3);
 }
 
 /* FOOTER -------------------------------------------- */
-h3{
-text-decoration: none !important;
-color: var(--boy-1);  
-}
 
 Footer {
+  text-decoration: none;
   margin: 30px 0px;
   font-size: var(--font-size-1);
-  
 }
-
+h3 {
+  color: var(--boy-1);  
+  }
+  
+.github, a:link {
+  text-decoration: none;
+}
 
