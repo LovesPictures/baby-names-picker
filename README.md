@@ -1,8 +1,22 @@
 # Challenge: "Baby Name Picker (React)"
 
-![Example Screenshot from the finished challenge](./example-screenshots/finished.png)
+## Completed project 
+
+![Example Screenshot from the finished challenge](./example-screenshots/BN__completed__01.JPG)
+Shortlist screen
+![Example Screenshot from the finished challenge](./example-screenshots/BN__completed__02.JPG)
+Filter male names 
+![Example Screenshot from the finished challenge](./example-screenshots/BN__completed__03.JPG)
+Filter female names
+![Example Screenshot from the finished challenge](./example-screenshots/BN__completed__04.JPG)
+
+_________________________
+
+
 
 ## Challenge Overview
+
+![Example Screenshot from the finished challenge](./example-screenshots/finished.png)
 
 Make a React app which shows some baby names and lets you pick your favourites. The names data is provided for you.
 
